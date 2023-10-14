@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+        fieldset{
+            width: 40%;
+        }
+        #country{
+            border-radius: 5px;
+        }
+        form{
+            text-align: left;
+            line-height: 15px;
+            
+        }
+        .textarea1{
+            width: 70%;
+            border-radius: 5px;
+            
+        }
+        h1{
+            border: rgb(73, 71, 71) solid 2px;
+            padding: 0px 10px;
+            background-color: grey;
+            color: white;
+        }
+        fieldset{
+            background-color: rgb(165, 161, 161);
+        }
+        body{
+            background-image: url("background.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #mobile{
+            border-radius: 5px;
+        }
+        #sub_button{
+            border-radius: 20px;
+            font-weight: bold;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        a:hover{
+            color: white;
+        }
+        #sub_button:hover{
+            background-color: rgb(78, 78, 78);
+            scale: 1.2;
+            cursor: pointer;
+            
+        }
+       
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend><h1>Form</h1></legend>
+        
+    <form>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" id="name" class="textarea1" placeholder="ex: siddu" required>
+        <br>
+        <br>
+        <label for="middle_name">Middle Name:</label>
+        <br>
+        <input type="text" name="middle_name" class="textarea1" id="middle_name">
+        <br>
+        <br>
+        <label for="last_name">Last Name:</label>
+        <br>
+        <input type="text" name="last_name" id="last_name" class="textarea1" placeholder="ex: jajee" required>
+        <br>
+        <br>
+        <label for="mobile">Cell:</label>
+        <br>
+        <input type="number" name="mobile" id="mobile" required>
+        <br>
+        <br>
+        <label for="email_id">Email-id:</label>
+        <br>
+        <input type="email" name="email_id" id="email_id" class="textarea1" placeholder="ex: siddu@gmail.com" required>
+        <br>
+        <br>
+        <label for="address">Address</label>
+        <br>
+        <input type="text" name="address" id="address" class="textarea1" required>
+        <br>
+        <br>
+        <label for="state">State:</label>
+        <br>
+        <input type="text" name="state" id="state" class="textarea1"  required>
+        <br>
+        <br>
+        <label for="country" >Country:</label>
+        <input list="list" id="country"  >
+        <br>
+        <datalist id="list">
+            <option value="India">India</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Russia">Russia</option>
+            <option value="USA">USA</option>
+            <option value="China">China</option>
+        </datalist>
+        <br> 
+        <br>
+        <label for="languages">Languages known:</label>
+        <br>
+        <br>
+        <input type="checkbox" id="eng" name="languages">
+        <label for="eng">English</label>
+        <input type="checkbox" id="kan" name="languages">
+        <label for="kan">Kannada</label>
+        <input type="checkbox" id="hin" name="languages">
+        <label for="hin">Hindi</label>
+        <br>
+        <br>
+        <br>
+        <center>
+            <button id="sub_button"><a href="sub.html">Submit</a></button>
+        </center>
+    </form>
+</fieldset>
+</center>
+<br>
+
+</body>
+</html>

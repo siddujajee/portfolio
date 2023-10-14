@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logophoto:hover{
+    scale: 1.2;
+    transition-duration: 1s;
+}
+
+#logophoto{
+    margin: 30px;
+    padding: 5px;
+    
+  
+}
+nav{
+    
+    float: right;
+    padding-top: 30px;
+    
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    background: linear-gradient(to left, rgb(168, 167, 167), rgb(238, 232, 232));
+    border-bottom-left-radius: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif
+}
+#education{
+    margin-left: 50px;
+}
+#proj{
+    margin-left: 50px;
+}
+#contact{
+    margin-left: 50px;
+}
+#resume{
+    margin-left: 50px;
+}
+#education:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+}
+#about:hover{
+    background-color:rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+}
+#proj:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+}
+#resume:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+}
+#contact:hover{
+    background-color:rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+}
+h1{
+    font-size: 55px;
+    padding-top: 100px;
+}
+P{
+    padding-top: 100px;
+}
+pre{
+    margin: 50px;
+    font-size: 20px;
+    line-height: 35px;
+}
